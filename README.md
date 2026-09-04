@@ -1,6 +1,8 @@
 # Wordle Word Guesser - Laravel-Style MVC Architecture
 
-A production-ready word guessing application for [https://www.nytimes.com/games/wordle/index.html](Wordle) built with a Laravel-like MVC architecture, featuring validation, controllers, models and services.
+![App Example Demo](App-Demo-Example.png "Screenshot app demo usage.")
+
+A production-ready word guessing application for [Wordle](https://www.nytimes.com/games/wordle/index.html) built with a Laravel-like MVC architecture, featuring validation, controllers, models and services.
 
 ## 🎮 Features
 
@@ -76,7 +78,7 @@ wordle-word-guesser-v2/
    ```
 
 3. **Add word lists**
-   Clone [https://github.com/dwyl/english-words](words list repo) into `storage/words/`.
+   Clone [dwyl/english-words](https://github.com/dwyl/english-words) repo into `storage/words/`.
 
    Change into 
    Run below command:
