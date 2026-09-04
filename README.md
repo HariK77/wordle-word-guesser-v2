@@ -80,14 +80,19 @@ wordle-word-guesser-v2/
 3. **Add word lists**
    Clone [dwyl/english-words](https://github.com/dwyl/english-words) repo into `storage/words/`.
 
-   Change into 
+   Go to `console/` folder and find `split_words.php` script to generate words list by alphabets.
+
+   Command Explanation:
+   php split_words.php words_list_source_path splot_words_output_path output_file_type_extension
+
    Run below command:
+   Examples:
    ```bash
-    php split_words.php /home/dev/projects/wwg2/storage/words/words.txt /home/dev/projects/wwg2/storage/words/json json
+    php split_words.php /home/dev/projects/wwg2/console/words.txt /home/dev/projects/wwg2/storage/words/json json
    ```
    or (if you want the source to use txt instead of json)
    ```bash
-    php split_words.php /home/dev/projects/wwg2/storage/words/words.txt /home/dev/projects/wwg2/storage/words/txt txt
+    php split_words.php /home/dev/projects/wwg2/console/words.txt /home/dev/projects/wwg2/storage/words/txt txt
    ```
    Place JSON/TXT files in `storage/words/json` or `storage/words/txt` (a.json/a.txt through z.json/z.txt)
    
@@ -102,6 +107,7 @@ wordle-word-guesser-v2/
    aavso
    ababa
    abaca
+   ...
    ```
 
 4. **Set permissions**
